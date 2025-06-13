@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Assistant', 'Arial';
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+    background-color: #1c3a66;
+    color: white;
+    align-items: center;
+    flex: 1;
+}
+
+
+body{
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+#logo{
+    width: 200px;
+    align-items: center;
+}
+
+.container1{
+    display: flex;
+    flex: 1;
+    gap: 80px;
+    color: white;
+    padding: 80px 200px;
+    background-color: #1c3a66;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.mainimage{
+    width: 100%;
+    max-width: auto;
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+button{
+    background-color: #3882F6;
+    padding: 8px;
+    margin-top: 8px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: rgb(169, 169, 250);
+}
+.container2{
+    background-color: white;
+    padding: 0px 300px 80px 300px;
+}
+h2{
+    padding: 30px;
+    font-size: 40px;
+    padding: 40px;
+    text-align: center;
+}
+.soaps{
+    display: flex;
+    flex-direction: column;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: gray;
+}
+
+.soaps, img{
+    object-fit: cover;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 8px;
+}
+#soaps{
+    max-width: 430px;
+}
+
+.slogan{
+    background-color: rgb(213, 212, 212);
+    padding: 80px 300px;
+}
+.slogan-text{
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(69, 68, 68);
+}
+
+.signature{
+    text-align: end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.perso{
+    display: flex;
+    flex: 1;
+    padding: 40px 80px;
+    margin: 80px 200px;
+    background-color: #376edc;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+.call-box{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.text{
+    color: white;
+    align-self: center;
+    width: 550px;
+}
+#contact{
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    padding: 10px;
+}
+
+footer{
+    background-color: #1c3a66;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.soaps img,
+.mainimage img{
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.container2, p{
+    padding-top: 10px;
+}
